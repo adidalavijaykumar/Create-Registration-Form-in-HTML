@@ -2,63 +2,23 @@
 <html>
 <head>
 	<title>Register Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<form>
-	<table>
-		<tr>
-			<td>
-				Name:
-			</td>
-			<td>
-				<input type="text" placeholder="Name" name="">
-		</tr>
-        <tr>
-        	<td>
-        		Password :
-        	</td>
-        	<td>
-        		<input type="Password" placeholder="Password" name ="">
-        	</td>
-        <tr>
-        	<td>
-        		Gender :
-        	</td>
-            <td>
-        		<input type="radio" name="Gender">Male
-        		<input type="radio" name="Gender">Female
-        	</td>
-        </tr>
-        <tr>
-            <td>
-        		Email :
-        	</td>
-        	<td>
-        		<input type="mail" placeholder="Email" name="">
-        	</td>
-        <tr>
-        	<td>
-        	Phone no :
-            </td>
-            <td>
-            	<select>
-            		<option>+91</option>
-            		<option>978</option>
-            		<option>979</option>
-            		<option>980</option>
-            		<option>981</option>
-            		<option>982</option>
-            		<option>983</option>
-            	</select>
-            	<input type="Phone" placeholder="98480*****" name="">
-            </td>
-        </tr>
-        <tr>
-        	<td>
-        	    <input type="Submit" value="Submit" name="">
-        	</td>
-        </tr>
-	</table>
-</form>	
+	<h1>Register Form</h1>
+	<form>
+		<input type="text" placeholder="Firstname" >
+		<input type="text" placeholder="Lastname" >
+		<input type="email" placeholder="Email" >
+		<input type="password" placeholder="Password" >
+		<input type="password" placeholder="ConfrmPassword">
+		
+		<div>
+			<input type="radio" id="male" name="gender"><label for="male">Male</label>
+			<input type="radio" id="female"name="gender"><label for="female">Female</label>
+		</div>
+
+		<input type="submit" name="Submit">
+    </form> 	
 </body>
 </html>
